@@ -1,0 +1,8 @@
+# автоматическое определение текстовых файлов
+* text=auto
+
+# для файлов .env.example, .go, .mod и .sum нужно использовать LF (Line Feed) в качестве символа конца строки
+*.env.example text eol=lf
+*.go text eol=lf
+*.mod text eol=lf
+*.sum text eol=lf

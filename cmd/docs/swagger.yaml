@@ -1,0 +1,8 @@
+basePath: /api/v1
+info:
+  contact: {}
+  description: API for managing songs in a music library
+  title: Music Library API
+  version: "1.0"
+paths: {}
+swagger: "2.0"
