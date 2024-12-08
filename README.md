@@ -37,11 +37,11 @@ Song Library API - это RESTful API для управления песнями
     ```
     
 ## Эндпоинты
-Получить все песни: GET /api/v1/songs
-Создать новую песню: POST /api/v1/songs
-Обновить песню по ID: PUT /api/v1/songs/{id}
-Удалить песню по ID: DELETE /api/v1/songs/{id}
-Получить текст песни по ID: GET /api/v1/songs/{id}/text
+- Получить все песни: GET /api/v1/songs
+- Создать новую песню: POST /api/v1/songs
+- Обновить песню по ID: PUT /api/v1/songs/{id}
+- Удалить песню по ID: DELETE /api/v1/songs/{id}
+- Получить текст песни по ID: GET /api/v1/songs/{id}/text
 
 **Пример запроса в Postman:**
 
@@ -81,6 +81,7 @@ Song Library API - это RESTful API для управления песнями
      "links": "https://www.youtube.com/watch?v=A_MjCqQoLLA"
  }
 ]
+    ```
 
 ## Ошибки
 API может возвращать следующие коды ошибок:
