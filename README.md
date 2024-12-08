@@ -54,7 +54,7 @@ Song Library API - это RESTful API для управления песнями
 
 Пример вывода:
 
-    ```json
+```json
 [
  {
      "id": 1,
@@ -81,7 +81,7 @@ Song Library API - это RESTful API для управления песнями
      "links": "https://www.youtube.com/watch?v=A_MjCqQoLLA"
  }
 ]
-    ```
+```
 
 ## Ошибки
 API может возвращать следующие коды ошибок:
